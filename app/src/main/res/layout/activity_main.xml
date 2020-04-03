@@ -7,11 +7,17 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/frozen"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageViewFrozen"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"
+        tools:text="0"
         android:textSize="50dp"
         android:textAlignment="center"
         android:id="@+id/textViewContador"/>
